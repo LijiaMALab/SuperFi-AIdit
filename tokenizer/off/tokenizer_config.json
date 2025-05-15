@@ -1,0 +1,1 @@
+{"tokenizer_class": "PreTrainedTokenizerFast", "pad_token": "[PAD]", "mask_token": "[MASK]"}

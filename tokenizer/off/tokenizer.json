@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 25,
+      "special": true,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false
+    },
+    {
+      "id": 24,
+      "special": true,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "unk_token": "[UNK]",
+    "dropout": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "vocab": {
+      "[PAD]": 25,
+      "[MASK]": 24,
+      "B": 4,
+      "D": 5,
+      "E": 6,
+      "F": 7,
+      "H": 8,
+      "I": 9,
+      "J": 10,
+      "K": 11,
+      "L": 12,
+      "M": 13,
+      "N": 14,
+      "O": 15,
+      "P": 16,
+      "Q": 17,
+      "R": 18,
+      "S": 19,
+      "U": 20,
+      "V": 21,
+      "W": 22,
+      "X": 23,
+      "A": 0,
+      "C": 1,
+      "G": 2,
+      "T": 3
+    },
+    "merges": [
+    ]
+  }
+}
